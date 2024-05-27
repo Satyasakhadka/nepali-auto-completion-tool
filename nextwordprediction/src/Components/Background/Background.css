@@ -1,0 +1,31 @@
+/* Background.css */
+.background-container {
+  position: fixed;
+  top: 80px; /* Adjust the top position to match the height of the white background plus the desired gap */
+  left: 0;
+  width: 100%;
+  height: calc(100% - 80px); /* Set the height to fill the remaining space below the white background */
+  background-color: white;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.background {
+  height: 100%; /* Adjust the height as needed */
+  width: 100%;
+  object-fit: cover;
+  padding: 0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 500ms ease-in-out;
+}

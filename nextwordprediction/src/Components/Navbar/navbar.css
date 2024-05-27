@@ -1,0 +1,42 @@
+/* Navbar.css */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 0px;
+  color: white;
+  background-color: white;
+}
+
+.nav-logo {
+  font-family: 'Outfit', sans-serif;
+  font-size: 90px; /* Adjusted font size for the logo */
+  font-weight: 1000;
+  color:black;
+}
+
+.fancy-text {
+  font-style: italic;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 30px;
+}
+
+.nav-link {
+  background-color: chocolate;
+  padding: 10px 20px; /* Adjusted padding for a larger size */
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 20px; /* Adjusted font size for the links */
+  transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #8b4513; /* Darker shade on hover */
+}

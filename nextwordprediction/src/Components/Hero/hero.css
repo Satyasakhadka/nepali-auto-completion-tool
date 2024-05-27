@@ -1,0 +1,83 @@
+.hero{
+    margin:0px 20px ;
+    margin-top:170px;
+
+}
+.hero-text{
+    color:palevioletred;
+    font-size:110px;
+    font-weight:500;
+    line-height: 130px;
+    margin-bottom: 0px;
+}
+.hero-explore {
+    display:flex;
+    align-items: center;
+    gap: 50px;
+    width: fit-content;
+    margin-top: 470px; /* Adjust this value as needed */
+    
+    
+    border-radius: 60px;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+.hero-explore p{
+    color:chocolate;
+    font-size: 20px;
+    font-weight:500;
+    margin-left: 20px;
+}
+      
+.hero-dot-play {
+    margin-top: -40px; /* Adjust this value as needed */
+    display: flex;
+    justify-content: space-between;
+  }
+  
+
+.hero-dots{
+        display: flex;
+        align-items:center;
+        gap:23px;
+        list-style:none;
+
+    }
+    .hero-dot{
+        width: 15px;
+        height: 15px;
+        background:white;
+        border-radius: 7.6px;
+        cursor: pointer;
+        
+    }  
+.hero-dot.orange{
+    background:orangered;
+
+}
+.hero-play {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px; /* Adjust this value as needed */
+    color: black; /* Ensure text is visible on the background */
+    font-size: 19px;
+  }
+  .play-pause-icon {
+  width: 30px; /* Adjust the size as needed */
+  height:20px;
+  cursor: pointer;
+}
+
+.see-video-text {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+  
+.hero-play p{
+    color:chocolate;
+    
+    font-size:19px;
+}
