@@ -59,7 +59,12 @@ Before you begin, ensure you have met the following requirements:
     ```
 ## Usage
 Here is the Demo Video of the Usage of Nepali Language Auto Completion Tool:
-[![Watch the video](https://github.com/Satyasakhadka/nepali-auto-completion-tool/blob/main/Thumbnail.png)](https://github.com/Satyasakhadka/nepali-auto-completion-tool/blob/main/Demo_video.mov)
+[![Watch the video]
+
+
+https://github.com/Satyasakhadka/nepali-auto-completion-tool/assets/83895809/1567af77-a944-4697-aea2-4340c50d9ccd
+
+
 
 
 ### Google Colab Setup
